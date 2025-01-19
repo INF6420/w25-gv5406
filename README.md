@@ -5,7 +5,7 @@
 # This webpage is designed to serve as a portfolio 
 
 ## Wireframes
-Wireframne
+
 
 ![Wireframe of Index/Home Page](wireframe/wireframe-index.jpeg)
 

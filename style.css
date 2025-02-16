@@ -38,6 +38,21 @@ a {
     font: size 10vw;;
     font-weight:bold;
 }
+.document-one {
+    margin: 25px 25px 25px 25px;
+    width:300px;
+    height:420px;
+}
+.document-two {
+    margin: 25px 25px 25px 25px;
+    width:300px;
+    height:420px;
+}
+.document-three {
+    margin: 25px 25px 25px 25px;
+    width:300px;
+    height:420px;
+}
 .footer {
     font-size:12px;
     position: fixed;

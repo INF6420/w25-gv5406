@@ -61,3 +61,9 @@ a {
     bottom:10px;
     left:10px;
 }
+.error {
+    color:red
+}
+.errormessage {
+    color:red
+}

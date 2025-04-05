@@ -17,8 +17,7 @@
         <li>LinkedIn:<a href="https://www.linkedin.com/in/willgrout/">https://www.linkedin.com/in/willgrout/</a></li></ul>
     </div>
     <div class="main-content">
-    <h3>You can contact me through my student email (gv5406@wayne.edu).</h3>
-    <p>The best times to contact me throughout the week are as follows:</p>
+    <h3>The best times to contact me throughout the week are as follows:</h3>
     <ul>
         <li>Mondays from 7am-1pm and 2pm-7pm</li>
         <li>Tuesdays from 1-7pm</li>
@@ -28,26 +27,25 @@
         <li>Saturdays from 7am-7pm</li>
         <li>Sundays from 7am-7pm</li>
     </ul>
-    <p>If you don't want to email me, you could instead out this form if you have any questions.</p>
-    <form
-  action="https://formspree.io/f/mblgally"
-  method="POST"
->  <label>
-    Name:
-    <input type="name" name="name">
+    <p>If you don't want to email me, however, you could instead fill out this form and sent it to me if you have any questions.</p>
+    <form action="https://formspree.io/f/mblgally" method="POST" data-validate>
+    <label>
+    Your Name:
+    <input type="name" name="name" class="form-input" rows="1">
   </label>
   <label>
-    Email:
-    <input type="email" name="email">
+    Your Email:
+    <input type="email" name="email" class="form-input" rows="1" required>
   </label>
   <label>
-    Message:
-    <textarea name="message"></textarea>
+    Your Message:
+    <textarea name="message" class="form-input" rows="3" required></textarea>
   </label>
   <button type="submit">Send</button>
 </form>
     </div>
     <div class="footer"><p>&copy Will Grout, 2025</p> </div>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js"></script>
+    <script>validate.init();</script>
 </body>
 </html>

@@ -2,7 +2,10 @@ Author: Will Grout<br>
 Institution: Wayne State University<br>
 Class: INF 6420 - Intro to Web Development<br>
 Professor: Axa Liauw<br>
-This webpage is designed to serve as my portfolio.
+This website is designed to serve as Will Grout's portfolio. The functions of the following pages are as follows:
+-index.html serves as the site's home page and introduces users to the site's purpose
+-aboutme.html includes details about the author's education and work experience
+-contact.html details how to contact the author and provides users with a contact form
 # Wireframes
 ## Index/Home Page
 ![Wireframe of Index/Home Page](wireframes/wireframe-index.jpeg)
